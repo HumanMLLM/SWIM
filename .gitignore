@@ -1,0 +1,44 @@
+# Dependencies
+node_modules/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+*.eggs/
+dist/
+build/
+*.so
+
+# Visualization outputs
+vis/
+
+# Cache
+.cache/
+.pytest_cache/
+
+# Training outputs
+output/
+wandb/
+new_log/
+*.log
+logs/
+
+# Model weights
+model_zoo/
+*.bin
+*.pth
+*.safetensors
+*.ckpt
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Environment
+.env

@@ -1,0 +1,13 @@
+datasets:
+    - json_path:  ./data/DAMO-NLP-SG/VideoRefer-700K/refined-format-videorefer-detailed-caption-0-12k.json
+      data_root: /
+    - json_path:  ./data/DAMO-NLP-SG/VideoRefer-700K/refined-format-videorefer-detailed-caption-12-50k.json
+      data_root: /
+    - json_path:  ./data/DAMO-NLP-SG/VideoRefer-700K/refined-format-videorefer-detailed-caption-50-100k-fliter.json
+      data_root: /
+    - json_path:  ./data/DAMO-NLP-SG/VideoRefer-700K/refined-format-videorefer-detailed-caption-100-125k.json
+      data_root: /    
+    - json_path:  ./data/DAMO-NLP-SG/VideoRefer-700K/refined-format-videorefer-qa-0-10k.json
+      data_root: /        
+    - json_path: ./data/LLaVA-Video-178K/filtered_valid_llava_video_178k_1.3M_abspath_tts_a100_200k_new.json
+      data_root: /
